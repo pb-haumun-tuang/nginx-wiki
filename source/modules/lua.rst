@@ -487,7 +487,8 @@ ngx.resp.get_headers
 
 See :github:`openresty/lua-nginx-module#ngxrespget_headers`
 
-ngx.req.start_time
+
+start_time
 ^^^^^^^^^^^^^^^^^^
 
 See :github:`openresty/lua-nginx-module#ngxreqstart_time`
@@ -596,6 +597,11 @@ ngx.req.socket
 ^^^^^^^^^^^^^^
 
 See :github:`openresty/lua-nginx-module#ngxreqsocket`
+
+ngx.req.is_internal
+^^^^^^^^^^^^^^
+
+See :github:`openresty/lua-nginx-module#ngxreqis_internal`
 
 ngx.exec
 ^^^^^^^^
